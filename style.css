@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(212, 209, 209);
+}
+
+.container-1 {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-2 {
+  width: 40%;
+}
+
+h1 {
+  color: blue;
+  font-size: 60px;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+}
+
+.container-3 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 450px;
+  height: 370px;
+  box-shadow: 10px;
+  border-radius: 10px;
+}
+
+input {
+  
+  width: 388px;
+  height: 50px;
+  margin: 10px;
+  padding: 0px 10px;
+  outline: none;
+  border: 1px solid wheat;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.fb-button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.login {
+  background: #1877f2;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+.create {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create a {
+  padding: 15px 20px;
+  background: #42b72a;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.063rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
